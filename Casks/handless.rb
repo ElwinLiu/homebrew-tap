@@ -1,14 +1,14 @@
 cask "handless" do
-  version "0.1.0"
+  version "0.1.2"
 
   on_arm do
     url "https://github.com/ElwinLiu/handless/releases/download/v#{version}/Handless_#{version}_aarch64.dmg"
-    sha256 "PLACEHOLDER_ARM64_SHA256"
+    sha256 "12af813b179314cc0e0e905e671a835353a070bd539ec06c08fe01f10a875d6f"
   end
 
   on_intel do
     url "https://github.com/ElwinLiu/handless/releases/download/v#{version}/Handless_#{version}_x64.dmg"
-    sha256 "PLACEHOLDER_X86_64_SHA256"
+    sha256 "ccafdcd2e82ab429d8acc1f498000ca863d50c1b42337e770c7e42666095e9f4"
   end
 
   name "Handless"
