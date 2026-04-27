@@ -1,14 +1,14 @@
 cask "handless" do
-  version "0.2.8"
+  version "0.2.9"
 
   on_arm do
-    url "https://github.com/ElwinLiu/handless/releases/download/v0.2.8/Handless_0.2.8_apple-silicon.dmg"
-    sha256 "4885ce1099f9f558f95d5df169c6c104e7911fe18b458c517fbe0929364c301e"
+    url "https://github.com/ElwinLiu/handless/releases/download/v0.2.9/Handless_0.2.9_apple-silicon.dmg"
+    sha256 "03483d82f05c41f178438e7495de14fac93c1e125e3522f0ffbe605268df07e5"
   end
 
   on_intel do
-    url "https://github.com/ElwinLiu/handless/releases/download/v0.2.8/Handless_0.2.8_intel.dmg"
-    sha256 "0cface65e60314d35559c4f6f649c71e5cd83b86f141b011403ef4be3c52316d"
+    url "https://github.com/ElwinLiu/handless/releases/download/v0.2.9/Handless_0.2.9_intel.dmg"
+    sha256 "cdf26cfe18e22f1d3e7109b286bebc07b95e2054e9e588fca0a7de4e4de6d162"
   end
 
   name "Handless"
